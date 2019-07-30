@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+}
+h1{
+  color: blue;
+  font-size: 500%;
+  font-family: 'Montserrat', sans-serif;
+}
+ p{
+  color: blue;
+  font-size: 200%;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+nav{
+  background-color: lightgreen;
+  padding-right:400px;
+  padding-left: 400px;
+  margin:5px;
+}
+body{
+  flex-direction: column;
+  align-items: center;
+  background-color: forestgreen;
+}
+img{
+  object-fit: cover;
+  width: 40%;
+  height: 300px;
+  /* margin: 57px; */
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* .images{
+  flex-wrap: wrap;
+
+} */
